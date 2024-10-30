@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="post__search">
+      <a href="/index.html">
+        <button>← Back</button>
+      </a>
+      <div class="post__search--container">
+        <form onsubmit="myFunction(event)">
+          <label class="post__search--label"> Search for Artists </label>
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for artists..."
+          />
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+    <div class="post-list">
+      <div class="post"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
